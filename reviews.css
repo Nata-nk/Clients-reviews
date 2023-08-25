@@ -1,0 +1,127 @@
+/* ---------------------MOBIL---------------------- */
+
+.creviews {
+  background: var(--light-blue, #f7faff);
+}
+.creviews-box {
+  width: 100%;
+  max-width: 1255px;
+  margin: 0 auto;
+  padding: 36px 16px;
+}
+.creviews-title {
+  color: var(--blue-font, #0a224a);
+  text-align: center;
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 1.5;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+}
+.creviews-list {
+  display: flex;
+  gap: 16px;
+}
+.creviews-item {
+  background: var(--white, #fff);
+  display: flex;
+  flex-wrap: wrap;
+  padding: 24px;
+  border-radius: 8px;
+}
+.creviews-img {
+  border-radius: 56px;
+  width: 56px;
+  height: 56px;
+}
+
+.creviews-img-box {
+  margin-right: 14px;
+}
+
+.creviews-name-box {
+  margin-bottom: 24px;
+}
+
+.creviews-text-name {
+  color: var(--blue-font, #0a224a);
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.78;
+  text-transform: uppercase;
+}
+.creviews-text-time {
+  color: var(--blue-font, #0a224a);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.29;
+}
+.creviews-text-commet {
+  color: var(--blue-font, #0a224a);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.43;
+}
+
+.none {
+  display: none;
+}
+
+.not {
+  display: none;
+}
+
+/* -------------------------------TABLET---------------------------------- */
+@media screen and (min-width: 768px) {
+  .not {
+    display: flex;
+  }
+
+  .creviews-box {
+    width: 100%;
+    max-width: 1255px;
+    margin: 0 auto;
+    padding: 36px 32px;
+  }
+  .creviews-title {
+    font-size: 32px;
+    line-height: 1.41;
+  }
+
+  .creviews-name-box {
+    margin-bottom: 14px;
+  }
+
+  .creviews-text-name {
+    font-size: 20px;
+    line-height: 2.25;
+  }
+  .creviews-text-time {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  .creviews-text-commet {
+    color: var(--blue-font, #0a224a);
+    font-size: 18px;
+    line-height: 1.5;
+  }
+
+  .none {
+    display: none;
+  }
+}
+
+/* -------------------------------DESKTOP---------------------------------- */
+@media screen and (min-width: 1440px) {
+  .none {
+    display: flex;
+  }
+
+  .creviews-box {
+    padding: 60px;
+  }
+
+  .creviews-name-box {
+    margin-bottom: 16px;
+  }
+}
